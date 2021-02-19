@@ -1,0 +1,14 @@
+@brasofilo,
+This unrelated to this gist, but not sure how to reach out to you any other way.
+
+Could you take a look at my questions on one of your old answers on StackExchange?
+https://wordpress.stackexchange.com/questions/51920/set-custom-name-for-generated-thumbnails/383694#383694
+
+
+@brasofilo, It has been several years and your answer still seems to be working, but is leading to 3 deprecation errors in a plugin I have that is outdated and no longer supported. Could you provide an updated solution that resolves these 3 errors with WP 5.5+ on PHP 8?
+
+Error 1 (WP deprecated) - wp_load_image() is deprecated from version 3.5.0. It is no longer supported and can be removed in future releases. Use wp_get_image_editor() instead.
+
+Error 2 (WP deprecated) - _rotate_image_resource() is deprecated from version 3.5.0. It is no longer supported and can be removed in future releases. Use WP_Image_Editor::rotate() instead.
+
+Error 3 (PHP 8) - PHP Deprecated: Required parameter $size follows optional parameter $crop in wp-content/plugins/mstore-api/templates/class-rename-generate.php on line 104.
